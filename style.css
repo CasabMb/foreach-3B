@@ -67,16 +67,15 @@ header a:hover{
 
 #arrow{
     display: flex;
-    align-items: flex-end;
     align-self: flex-end;
     padding-bottom: 10px;
     padding-right: 20px;
-    position: sticky;
+    position: fixed;
 }
 #arrow img{
-    height: 20px;
-    width: 20px;
-    background-color: rgb(156, 173, 189);
+    height: 25px;
+    width: 25px;
+    background-color: rgb(229, 237, 245);
 }
 
 /* section nos offres */
