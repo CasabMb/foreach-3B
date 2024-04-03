@@ -169,3 +169,13 @@ h3{
     width: 75%;
 
 }
+
+/* section formulaire*/
+#intro_formulaire{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 10px;
+}
