@@ -33,3 +33,20 @@ header a {
 header a:hover{
     font-weight: bold;
 }
+
+/* jumbotron */
+#jumbotron p:first-child{
+    font-weight: bold;
+    font-size: large;
+}
+#jumbotron{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./assets/images/bowling_field.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 300px;
+}
