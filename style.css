@@ -190,6 +190,7 @@ h3{
     justify-content: center;
     align-items: center;
     align-content: center;
+    margin-bottom: 20px;
 }
 
 .input input, textarea{
@@ -204,4 +205,23 @@ h3{
     height: 138px;
     padding: 10px 5px;
     margin-top: 5px;
+}
+
+#submit:hover{
+    background-color: #3c699c;
+    margin: auto;
+    cursor: pointer;
+}
+
+input[type="submit"]{
+    background-color: #76B3F7;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    display: block;
+    margin: auto;
+    border-radius: 4px;
+}
+#contact{
+    margin-bottom: 20px;
 }
