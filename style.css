@@ -37,11 +37,11 @@ header a:hover{
 /* jumbotron */
 #jumbotron p:first-child{
     font-weight: bold;
-    font-size: large;
+    font-size: x-large;
 }
 #jumbotron{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
     background-image: url(./assets/images/bowling_field.jpg);
     background-size: cover;
@@ -49,4 +49,16 @@ header a:hover{
     background-attachment: fixed;
     background-position: center;
     height: 300px;
+}
+
+#text_jumbotron{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.699);
+    height: 70px;
+    width: 500px;
+    border: white 1px solid;
+    padding-top: 10px;
 }
