@@ -190,7 +190,8 @@ h3{
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin-bottom: 20px;
+    width: 80%;
+    margin: auto;
 }
 
 .input input, textarea{
@@ -225,3 +226,4 @@ input[type="submit"]{
 #contact{
     margin-bottom: 20px;
 }
+
