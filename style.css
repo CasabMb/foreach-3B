@@ -179,3 +179,29 @@ h3{
     gap: 20px;
     padding-bottom: 10px;
 }
+
+.input{
+    padding: 5px 0px;
+}
+
+#section_a_remplir{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.input input, textarea{
+    width: 500px;
+}
+
+.input input{
+    padding: 10px 5px;
+}
+
+#textarea textarea{
+    height: 138px;
+    padding: 10px 5px;
+    margin-top: 5px;
+}

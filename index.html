@@ -121,7 +121,7 @@
     </section>
 
     <section id="contact">
-        <form id="contact_container">
+        <form>
             <div id="intro_formulaire">
                 <h3>
                     Nous contacter
@@ -130,25 +130,27 @@
                     Contactez-nous pour toute question, information. Nous sommes là pour vous aider !
                 </p>
             </div>
-            <div id="input_block">
-                <div class="input">
-                    <label for="firstname">Prénom:</label>
-                    <input name="firstname" type="text" required/>
+            <div id="section_a_remplir">
+                <div id="input_block">
+                    <div class="input">
+                        <label for="firstname"></label>
+                        <input name="firstname" type="text" placeholder="Prénom:"  required/>
+                    </div>
+                    <div class="input">
+                        <label for="email"></label>
+                        <input name="email" type="email" placeholder="Email:" required/>
+                    </div>
+                    <div class="input">
+                        <label for="telephone"></label>
+                        <input name="telephone" type="tel" placeholder="Numéro de téléphone:"/>
+                    </div>
                 </div>
-                <div class="input">
-                    <label for="email">Email: </label>
-                    <input name="email" type="email" required/>
-                </div>
-                <div class="input">
-                    <label for="telephone">Numéro de téléphone: </label>
-                    <input name="telephone" type="tel" />
+                <div id="textarea">
+                    <label for="message"></label>
+                    <textarea name="message" placeholder="Votre message ici.."></textarea>
                 </div>
             </div>
-            <div id="textarea">
-                <label for="message">Message:</label>
-                <textarea name="message" placeholder="Votre message ici.." required></textarea>
-            </div>
-            <input type="submit" value="Envoyer" />
+            <input type="submit" value="Envoyer" id="submit"/>
         </form>
     </section>
     
