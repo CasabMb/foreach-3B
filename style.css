@@ -41,7 +41,7 @@ header a:hover{
 }
 #jumbotron{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     background-image: url(./assets/images/bowling_field.jpg);
     background-size: cover;
