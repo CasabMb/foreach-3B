@@ -225,6 +225,9 @@ input[type="submit"]{
 #contact{
     margin-bottom: 20px;
 }
+#container_submit{
+    margin-top: 20px;
+}
 
 /* footer */
 footer{
@@ -238,7 +241,4 @@ footer{
     justify-content: space-evenly;
     margin: auto;
     padding: 15px 0px;
-}
-#container_submit{
-    margin-top: 20px;
 }
